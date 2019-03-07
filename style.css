@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e3e3e3;
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  opacity: 0.8;
+  border-top: 3px solid #5cb700;
+  height: auto;
+}
+
+#footer-img {
+  width: auto;
+  height: auto;
+}
+
+#validatie img {
+  height: 2em;
+  width: auto;
+  border: 0;
+  margin: 0 0.3em;
+}
+
+.vertical-menu {
+  width: 200px;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #5cb700;
+  color: white;
+}
